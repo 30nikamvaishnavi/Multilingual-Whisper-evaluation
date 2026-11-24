@@ -1,0 +1,6 @@
+{
+  "name": "Multilingual-ASR-Evaluation",
+  "description": "Local OpenAI Whisper evaluation pipeline for Hindi, Marathi, and English speech recognition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

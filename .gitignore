@@ -1,0 +1,60 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+coverage/
+.coverage
+htmlcov/
+
+# Testing & linting caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Model weights & downloaded checkpoints
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+models/
+checkpoints/
+.cache/
+whisper_cache/
+
+# User audio files (preserve directory via .gitkeep)
+data/audio/*
+!data/audio/.gitkeep
+
+# Generated evaluation outputs (preserve directory via .gitkeep)
+results/*
+!results/.gitkeep
+
+# Local environment & IDE files
+.env*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Frontend tooling (if present in workspace)
+node_modules/

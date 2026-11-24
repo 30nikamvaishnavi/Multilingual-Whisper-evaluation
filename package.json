@@ -1,0 +1,10 @@
+{
+  "name": "multilingual-asr-evaluation",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bash scripts/start_streamlit.sh",
+    "build": ".venv/bin/python -m compileall -q app streamlit_app scripts tests",
+    "lint": ".venv/bin/ruff check ."
+  }
+}
